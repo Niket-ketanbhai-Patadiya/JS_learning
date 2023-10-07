@@ -33,3 +33,25 @@ const myFunction=function(){
 
 console.log(typeof bigNumber);
 console.log(typeof myFunction); //it will return function actually it is object function
+
+// *******************************************************************************************
+
+//types of memory
+// stack(Primitive types) , heap(non-primitive)
+
+let myYoutubename="niketpatadiyadotcom";
+let anothername=myYoutubename;
+anothername="chanecode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne;
+ userTwo.email="Niket@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
